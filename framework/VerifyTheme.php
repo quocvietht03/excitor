@@ -414,7 +414,7 @@ class VerifyTheme {
   	function verifytheme_admin_notice__warning() {
   		$class = 'notice notice-error is-dismissible';
   		$setting_page = admin_url('options-general.php?page=verifytheme_settings');
-  		$message = __( '<b>Important notice:</b> In order to receive all benefits of our theme, you need to activate your copy of the theme. <br />By activating the theme license you will unlock premium options - import demo data, install & update plugins and official support. Please visit <a href="'.$setting_page.'">Envato Settings</a> page to activate your copy of the theme', 'verifytheme' );
+  		$message = __( '<b>Important notice:</b> In order to receive all benefits of our theme, you need to activate your copy of the theme. <br />By activating the theme license you will unlock premium options - import demo data, install & update plugins and official support. Please visit <a href="'.$setting_page.'">Envato Settings</a> page to activate your copy of the theme', 'excitor' );
   		printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), wp_kses( $message, array('b' => array(), 'br' => array(), 'a' => array('href' => array())) ) );
   	}
 
@@ -424,7 +424,7 @@ class VerifyTheme {
       wp_enqueue_style( 'verifytheme' );
       if(!$this->isInstallationLegit){
         $setting_page = admin_url('options-general.php?page=verifytheme_settings');
-        $message = esc_html__( "Important notice: In order to receive all benefits of our theme, you need to activate your copy of the theme. \nBy activating the theme license you will unlock premium options - import demo data, install, update plugins and official support. Please visit Envato Settings page to activate your copy of the theme", 'alone' );
+        $message = esc_html__( "Important notice: In order to receive all benefits of our theme, you need to activate your copy of the theme. \nBy activating the theme license you will unlock premium options - import demo data, install, update plugins and official support. Please visit Envato Settings page to activate your copy of the theme", 'excitor' );
         wp_register_script( 'verifytheme', get_stylesheet_directory_uri() . '/framework/verifytheme.js', false );
         wp_localize_script(
   				'verifytheme',
@@ -476,10 +476,10 @@ class VerifyTheme {
 					$license_already_in_use = true;
 				}
         $other_attributes = '';
-        $register_button_text = __( 'Register your theme', 'verifytheme' );
+        $register_button_text = __( 'Register your theme', 'excitor' );
         if ( $toolkitData && $installationLegit ){
           $other_attributes = 'disabled';
-          $register_button_text = __( 'Activated on this domain', 'verifytheme' );
+          $register_button_text = __( 'Activated on this domain', 'excitor' );
           $this->isInstallationLegit = true;
         }
         $type = 'primary';
@@ -497,12 +497,12 @@ class VerifyTheme {
               ?>
               <?php if ( $toolkitData && ! $is_deregistering_license && ! $license_already_in_use ) : ?>
               <p class="change_license_wrap">
-                <input name="change_license_tmp" onclick="document.getElementById('change_license_btn').click();" id="change_license_tmp" class="button" value="<?php esc_attr_e('Deregister your product','verifytheme'); ?>" type="button">
+                <input name="change_license_tmp" onclick="document.getElementById('change_license_btn').click();" id="change_license_tmp" class="button" value="<?php esc_attr_e('Deregister your product','excitor'); ?>" type="button">
               </p>
             <?php endif; ?>
             </form>
             <form style="display: none" id="change_license_form" method="POST">
-              <button id="change_license_btn" type="submit" class="button button-primary" name="change_license"><?php echo esc_html__( 'Deregister your product', 'verifytheme' ); ?></button>
+              <button id="change_license_btn" type="submit" class="button button-primary" name="change_license"><?php echo esc_html__( 'Deregister your product', 'excitor' ); ?></button>
             </form>
         </div>
         <?php
@@ -580,8 +580,8 @@ class VerifyTheme {
               $communicator->registerDomain($new_input['purchase_code'], $server_name);
             endif;
           else:
-            $message .= sprintf(wp_kses( __( 'This product is in use on another domain: <span>%s</span><br />', 'verifytheme' ), array( 'span' => array(), 'br' => array() ) ), $connected_domain );
-            $message .= sprintf(esc_html__('Are you using this theme for a new site? Please purchase a %s ', 'verifytheme' ), '<a tabindex="-1" href="' . esc_url( 'http://themeforest.net/cart/add_items?ref=bearsthemes&item_ids=' ) .ITEM_ID.'" target="_blank">'.esc_html__('new license','verifytheme').'</a>');
+            $message .= sprintf(wp_kses( __( 'This product is in use on another domain: <span>%s</span><br />', 'excitor' ), array( 'span' => array(), 'br' => array() ) ), $connected_domain );
+            $message .= sprintf(esc_html__('Are you using this theme for a new site? Please purchase a %s ', 'excitor' ), '<a tabindex="-1" href="' . esc_url( 'http://themeforest.net/cart/add_items?ref=bearsthemes&item_ids=' ) .ITEM_ID.'" target="_blank">'.esc_html__('new license','excitor').'</a>');
             if(!$register_error):
               add_settings_error(
                   'verifytheme_settings',
@@ -603,7 +603,7 @@ class VerifyTheme {
     {
         printf(
             '%s<br />%s<a target="_blank" href="%s">%s</a>.</small>',
-            esc_html__('Themeforest provides purchase code for each theme you buy, and you’ll need it to verify and register your product (and to receive theme support).','verifytheme'),esc_html__('To download your purchase code, simply follow these steps at ','verifytheme'), esc_url('//bearsthemes.com/product-registration/'), esc_html__('here','verifytheme')
+            esc_html__('Themeforest provides purchase code for each theme you buy, and you’ll need it to verify and register your product (and to receive theme support).','excitor'),esc_html__('To download your purchase code, simply follow these steps at ','excitor'), esc_url('//bearsthemes.com/product-registration/'), esc_html__('here','excitor')
         );
     }
     /**
@@ -613,7 +613,7 @@ class VerifyTheme {
     {
         printf(
             '<input type="text" id="purchase_code" required name="verifytheme_settings[purchase_code]" value="%s" /><br /><small>%s<a target="_blank" href="%s">%s</a>.</small>',
-            isset( $this->options['purchase_code'] ) ? esc_attr( $this->options['purchase_code']) : '', esc_html__('Please insert your Envato purchase code. ','verifytheme'), esc_url('//bearsthemes.com/product-registration/'), esc_html__('More info','verifytheme')
+            isset( $this->options['purchase_code'] ) ? esc_attr( $this->options['purchase_code']) : '', esc_html__('Please insert your Envato purchase code. ','excitor'), esc_url('//bearsthemes.com/product-registration/'), esc_html__('More info','excitor')
         );
     }
 }
