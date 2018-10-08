@@ -1,0 +1,6 @@
+[28-Sep-2018 06:19:17 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/bearsthe/public_html/theme/wordpress/excitor/wp-content/themes/excitor/index.php on line 1
+[28-Sep-2018 09:12:31 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/bearsthe/public_html/theme/wordpress/excitor/wp-content/themes/excitor/index.php on line 1
+[30-Sep-2018 00:34:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/bearsthe/public_html/theme/wordpress/excitor/wp-content/themes/excitor/index.php on line 1
+[30-Sep-2018 00:53:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/bearsthe/public_html/theme/wordpress/excitor/wp-content/themes/excitor/index.php on line 1
+[30-Sep-2018 00:53:41 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/bearsthe/public_html/theme/wordpress/excitor/wp-content/themes/excitor/index.php on line 1
+[04-Oct-2018 11:17:52 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bearspro/theme.bearsthemespro.com/excitor/wp-content/themes/excitor/index.php on line 1
