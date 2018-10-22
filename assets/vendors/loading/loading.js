@@ -1,11 +1,8 @@
 !(function($){
 	"use strict";
-	jQuery(document).ready(function($) {
-		function ld_SiteLoading() {
-			if ($('#site_loading').length) {
-				$('#site_loading').hide();
-			}
+	jQuery(window).load(function() {
+		if ($('#site_loading').length) {
+			$('#site_loading').fadeOut();
 		}
-		ld_SiteLoading();
 	});
 })(jQuery);

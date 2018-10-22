@@ -1,6 +1,6 @@
 === Excitor ===
 Theme Name: Excitor
-Theme URI: http://theme.bearsthemes.com/wordpress/excitor
+Theme URI: http://bearsthemespremium.com/theme/excitor/
 Author: bearsthemes
 Author URI: http://bearsthemes.com
 License: GNU General Public License v2 or later

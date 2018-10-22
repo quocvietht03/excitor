@@ -12,7 +12,7 @@ class BearsthemesAPI {
     var $baseUrl;
     var $session;
 
-    function __construct($baseUrl='http://api.bearsthemes.com/endpoint') {
+    function __construct($baseUrl='http://api.bearsthemespremium.com/endpoint') {
         $this->baseUrl = $baseUrl;
         $this->session = null;
     }
@@ -233,7 +233,7 @@ if (!class_exists('BearsthemesCommunicator')):
   class BearsthemesCommunicator extends BearsthemesAPI {
     var $items;
 
-    function __construct($baseUrl='http://api.bearsthemes.com/') {
+    function __construct($baseUrl='http://api.bearsthemespremium.com/') {
         parent::__construct($baseUrl);
     }
 
@@ -603,7 +603,7 @@ class VerifyTheme {
     {
         printf(
             '%s<br />%s<a target="_blank" href="%s">%s</a>.</small>',
-            esc_html__('Themeforest provides purchase code for each theme you buy, and you’ll need it to verify and register your product (and to receive theme support).','excitor'),esc_html__('To download your purchase code, simply follow these steps at ','excitor'), esc_url('//bearsthemes.com/product-registration/'), esc_html__('here','excitor')
+            esc_html__('Themeforest provides purchase code for each theme you buy, and you’ll need it to verify and register your product (and to receive theme support).','excitor'),esc_html__('To download your purchase code, simply follow these steps at ','excitor'), esc_url('//bearsthemespremium.com/product-registration/'), esc_html__('here','excitor')
         );
     }
     /**
@@ -613,7 +613,7 @@ class VerifyTheme {
     {
         printf(
             '<input type="text" id="purchase_code" required name="verifytheme_settings[purchase_code]" value="%s" /><br /><small>%s<a target="_blank" href="%s">%s</a>.</small>',
-            isset( $this->options['purchase_code'] ) ? esc_attr( $this->options['purchase_code']) : '', esc_html__('Please insert your Envato purchase code. ','excitor'), esc_url('//bearsthemes.com/product-registration/'), esc_html__('More info','excitor')
+            isset( $this->options['purchase_code'] ) ? esc_attr( $this->options['purchase_code']) : '', esc_html__('Please insert your Envato purchase code. ','excitor'), esc_url('//bearsthemespremium.com/product-registration/'), esc_html__('More info','excitor')
         );
     }
 }

@@ -3,13 +3,13 @@ function excitor_fw_ext_backups_demos($demos) {
     $demos_array = array(
 		'excitor' => array(
 			'title' => esc_html__('Excitor', 'excitor'),
-			'screenshot' => 'http://import.bearsthemespro.com/excitor/excitor/screenshot.jpg',
-			'preview_link' => 'http://theme.bearsthemespro.com/excitor/',
+			'screenshot' => 'http://bearsthemespremium.com/install/demo/excitor/excitor/screenshot.jpg',
+			'preview_link' => 'http://bearsthemespremium.com/theme/excitor/',
 		),
 		
     );
 
-    $download_url = 'http://import.bearsthemespro.com/excitor/';
+    $download_url = 'http://bearsthemespremium.com/install/demo/excitor/';
 
     foreach ($demos_array as $id => $data) {
         $demo = new FW_Ext_Backups_Demo($id, 'piecemeal', array(

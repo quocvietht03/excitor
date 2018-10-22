@@ -55,7 +55,7 @@ function excitor_register_required_plugins() {
 	 * Array of plugin arrays. Required keys are name and slug.
 	 * If the source is NOT from the .org repo, then source is also required.
 	 */
-	$root = 'http://plugin.bearsthemespro.com/';
+	$root = 'http://bearsthemespremium.com/install/plugin/';
 	
 	$plugins = array(
 		array(
