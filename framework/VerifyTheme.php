@@ -571,7 +571,7 @@ class VerifyTheme {
             if($envato->message){
               $message .= $envato->message;
             }else{
-              $message .= "Invalid purchase code<br />";
+              $message .=  wp_kses( __( 'Invalid purchase code<br />', 'excitor' ), array( 'br' => array() ) );
             }
         }
         $connected_domain = $communicator->getConnectedDomains( $new_input['purchase_code'] );
