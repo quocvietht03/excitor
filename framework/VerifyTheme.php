@@ -95,7 +95,7 @@ class BearsthemesAPI {
             $curl_errno = curl_errno($this->session);
             $curl_error = curl_error($this->session);
             if ($curl_errno > 0) {
-                $message = sprintf("%s (%s): %s \n", __('cURL Error', 'lemonspa'), $curl_errno, $curl_error);
+                $message = sprintf("%s (%s): %s \n", __('cURL Error', 'excitor'), $curl_errno, $curl_error);
                 return json_encode(array( 'error' => $message ) );
             }
         } catch (Exception $e) {
