@@ -66,6 +66,10 @@ class BearsthemesAPI {
      * @return String || null
      */
     function request($endpoint, $headers=array(), $curlParams=array()) {
+        if( !function_exists('curl_init') ){
+          $message = __('cURL Error: cURL is disable', 'lemonspa');
+          return json_encode(array( 'error' => $message ) );
+        }
         $this->open();
         if (empty($headers)) { $headers = array(); }
         $url = $this->baseUrl . '/' . $endpoint;
@@ -88,6 +92,12 @@ class BearsthemesAPI {
                 curl_setopt($this->session, $param, $cParams[$param]);
             }
             $resp = curl_exec($this->session);
+            $curl_errno = curl_errno($this->session);
+            $curl_error = curl_error($this->session);
+            if ($curl_errno > 0) {
+                $message = sprintf("%s (%s): %s \n", __('cURL Error', 'lemonspa'), $curl_errno, $curl_error);
+                return json_encode(array( 'error' => $message ) );
+            }
         } catch (Exception $e) {
             return null;
         }
@@ -99,7 +109,8 @@ class BearsthemesAPI {
 if (!class_exists('EnvatoMarket')):
   class EnvatoMarket extends BearsthemesAPI {
 
-    var $api_key;
+    var $api_key;	  
+    var $message;
     function __construct($baseUrl='https://api.envato.com/v3/market') {
         parent::__construct($baseUrl);
     }
@@ -557,7 +568,11 @@ class VerifyTheme {
                 'purchase_code' => $new_input['purchase_code'],
             );
         } else {
-            $message .= "Invalid purchase code<br />";
+            if($envato->message){
+              $message .= $envato->message;
+            }else{
+              $message .= "Invalid purchase code<br />";
+            }
         }
         $connected_domain = $communicator->getConnectedDomains( $new_input['purchase_code'] );
         $already_in_use = ! isInstallationLegit( $data );
