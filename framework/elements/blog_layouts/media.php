@@ -1,4 +1,4 @@
-<?php
+<?php 
 	$media_arr = explode(',', $multi_media);
 	$thumb_size = (!empty($img_size))?$img_size:'full'; 
 	$thumbnail = wpb_getImageBySize( array(

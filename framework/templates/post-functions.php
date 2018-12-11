@@ -1,4 +1,4 @@
-<?php
+<?php 
 /* Count post view. */
 function excitor_set_count_view(){
     $post_id = get_the_ID();
