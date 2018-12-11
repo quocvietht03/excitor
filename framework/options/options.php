@@ -281,6 +281,14 @@
 	foreach ( $menus_obj as $menu_obj ) {
 		$menu_slug_opt[$menu_obj->slug] = $menu_obj->name;
 	}
+	
+	/* Option value type array */
+	$localfonts = array(
+		'FreeSans' => 'FreeSans',
+		'FreeSansBold' => 'FreeSansBold',
+		'FreeSansOblique' => 'FreeSansOblique',
+		'FreeSansBoldOblique' => 'FreeSansBoldOblique',
+	);
 
 	require_once get_template_directory().'/framework/options/general.php';
 	require_once get_template_directory().'/framework/options/color.php';

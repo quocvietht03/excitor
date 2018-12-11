@@ -14,6 +14,7 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'fonts'   => $localfonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',

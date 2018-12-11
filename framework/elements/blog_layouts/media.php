@@ -77,8 +77,8 @@
 								<source src="'.esc_url($audio_src).'" type="'.esc_attr($audio_format).'">
 							</audio>';
 					}else{
-						if($post_image_size){
-							$thumb_size = (!empty($post_image_size))?$post_image_size:'full'; 
+						if($img_size){
+							$thumb_size = (!empty($img_size))?$img_size:'full'; 
 							$thumbnail = wpb_getImageBySize( array(
 								'post_id' => get_the_ID(),
 								'attach_id' => null,
@@ -95,8 +95,8 @@
 					if($audio_embed){
 						echo '<div class="bt-soundcluond">'.$audio_embed.'</div>';
 					}else{
-						if($post_image_size){
-							$thumb_size = (!empty($post_image_size))?$post_image_size:'full'; 
+						if($img_size){
+							$thumb_size = (!empty($img_size))?$img_size:'full'; 
 							$thumbnail = wpb_getImageBySize( array(
 								'post_id' => get_the_ID(),
 								'attach_id' => null,
@@ -115,8 +115,8 @@
 				if($quote_text){
 					echo '<blockquote>'.$quote_text.'</blockquote>';
 				}else{
-					if($post_image_size){
-						$thumb_size = (!empty($post_image_size))?$post_image_size:'full'; 
+					if($img_size){
+						$thumb_size = (!empty($img_size))?$img_size:'full'; 
 						$thumbnail = wpb_getImageBySize( array(
 							'post_id' => get_the_ID(),
 							'attach_id' => null,
@@ -134,8 +134,8 @@
 				if($url){
 					echo '<a href="'.esc_url($url).'" target="_blank">'.$url.'</a>';
 				}else{
-					if($post_image_size){
-						$thumb_size = (!empty($post_image_size))?$post_image_size:'full'; 
+					if($img_size){
+						$thumb_size = (!empty($img_size))?$img_size:'full'; 
 						$thumbnail = wpb_getImageBySize( array(
 							'post_id' => get_the_ID(),
 							'attach_id' => null,

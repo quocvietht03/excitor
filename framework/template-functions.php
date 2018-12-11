@@ -414,7 +414,7 @@ if ( ! function_exists( 'excitor_post_nav' ) ) {
 if ( ! function_exists( 'excitor_paginate_links' ) ) {
 	function excitor_paginate_links($wp_query) {
 		global $excitor_options;
-		$pagination_style = (isset($excitor_options['pagination_style'])&&$excitor_options['pagination_style'])?'bt-style'.$excitor_options['nav_dots_style']:'bt-style0';
+		$pagination_style = (isset($excitor_options['pagination_style'])&&$excitor_options['pagination_style'])?'bt-style'.$excitor_options['pagination_style']:'bt-style0';
 		$prev_text = (isset($excitor_options['pagination_prev_text'])&&$excitor_options['pagination_prev_text'])?'<span>'.$excitor_options['pagination_prev_text'].'</span>':'';
 		$next_text = (isset($excitor_options['pagination_next_text'])&&$excitor_options['pagination_next_text'])?'<span>'.$excitor_options['pagination_next_text'].'</span>':'';
 		
