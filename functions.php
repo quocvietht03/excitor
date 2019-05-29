@@ -103,7 +103,7 @@ if (!function_exists('excitor_enqueue_scripts')) {
 		wp_register_script( 'counterup', get_template_directory_uri().'/assets/vendors/jquery.counterup.min.js', array('jquery'), '', true);
 
 		/* waypoints */
-		wp_register_script( 'waypoints', get_template_directory_uri().'/assets/vendors/waypoints.min.js', array('jquery'), '', true);
+		wp_enqueue_script( 'waypoints', get_template_directory_uri().'/assets/vendors/waypoints.min.js', array('jquery'), '', true);
 
 		/* countdown */
 		wp_register_script( 'plugin', get_template_directory_uri().'/assets/vendors/countdown/jquery.plugin.min.js', array('jquery'), '', true);

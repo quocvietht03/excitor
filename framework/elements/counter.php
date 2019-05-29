@@ -80,7 +80,6 @@ class WPBakeryShortCode_bt_counter extends WPBakeryShortCode {
 		}
 		
 		wp_enqueue_script('counterup');
-		wp_enqueue_script('waypoints');
 		
 		ob_start();
 		?>
