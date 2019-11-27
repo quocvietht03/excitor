@@ -211,7 +211,7 @@ vc_map(array(
 		),
 		array (
 			'type' => 'bt_taxonomy',
-			'taxonomy' => 'testimonial_category',
+			'taxonomy' => 'bt_testimonial_category',
 			'heading' => esc_html__('Categories', 'excitor'),
 			'param_name' => 'category',
 			'group' => esc_html__('Data Setting', 'excitor'),
