@@ -275,6 +275,34 @@
 
 
      */
+	
+	$fonts = array (
+		'Lato, sans-serif'             => 'Lato',
+		'Montserrat, sans-serif'       => 'Montserrat',
+		'Montserrat Medium, sans-serif'       => 'Montserrat Medium',
+		'Montserrat SemiBold, sans-serif'       => 'Montserrat SemiBold',
+		'Montserrat ExtraBold, sans-serif'       => 'Montserrat ExtraBold',
+		'Noto Serif, serif'            => 'Noto Serif',
+		'Poppins, sans-serif'         => 'Poppins',
+		'Poppins Medium, sans-serif'          => 'Poppins Medium',
+		'Poppins SemiBold, sans-serif'        => 'Poppins SemiBold',
+		'Muli, sans-serif'         => 'Muli',
+		'Muli Medium, sans-serif'          => 'Muli Medium',
+		'Muli SemiBold, sans-serif'        => 'Muli SemiBold',
+		'Open Sans, sans-serif'         => 'Open Sans',
+		'Open Sans Light, sans-serif'         => 'Open Sans Light',
+		'Open Sans SemiBold, sans-serif'        => 'Open Sans SemiBold',
+		'Open Sans ExtraBold, sans-serif'        => 'Open Sans ExtraBold',
+		'Crimson Text, serif'         => 'Crimson Text',
+		'Crimson Text SemiBold, serif'        => 'Crimson Text SemiBold',
+		'Crimson Text SemiBold Italic, serif'        => 'Crimson Text SemiBold Italic',
+		'Source Sans Pro, sans-serif'         => 'Source Sans Pro',
+		'Source Sans Pro SemiBold, sans-serif'        => 'Source Sans Pro SemiBold',
+		'Just Another Hand, cursive'        => 'Just Another Hand',
+		'Scheherazade, serif'        => 'Scheherazade',
+		
+	);
+	
 	$menu_slug_opt = array();
 	$menus_obj = get_terms( 'nav_menu', array( 'hide_empty' => true ) );
 	$menu_slug_opt['auto'] = 'Auto';

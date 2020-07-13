@@ -181,6 +181,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#eaeaea',
 				'font-size'   => '14px',
@@ -308,6 +310,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -338,6 +342,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -527,6 +533,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -653,6 +661,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -685,6 +695,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -846,6 +858,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#eaeaea',
 				'font-size'   => '14px',
@@ -946,6 +960,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#555555',
 				'font-size'   => '14px',
@@ -1050,6 +1066,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -1080,6 +1098,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -1291,6 +1311,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -1417,6 +1439,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -1449,6 +1473,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -1610,6 +1636,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#eaeaea',
 				'font-size'   => '14px',
@@ -1701,6 +1729,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#555555',
 				'font-size'   => '14px',
@@ -1805,6 +1835,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -1835,6 +1867,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -2046,6 +2080,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -2172,6 +2208,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -2204,6 +2242,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -2342,6 +2382,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#eaeaea',
 				'font-size'   => '14px',
@@ -2468,6 +2510,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -2498,6 +2542,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -2687,6 +2733,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -2813,6 +2861,8 @@ Redux::setSection( $opt_name, array(
 			'text-transform'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -2845,6 +2895,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -3118,6 +3170,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -3150,6 +3204,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -3291,6 +3347,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -3321,6 +3379,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -3467,6 +3527,8 @@ Redux::setSection( $opt_name, array(
 			'text-align'   => false,
 			'text-transform'   => true,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '15px',
 				'font-family' => 'Poppins',
@@ -3499,6 +3561,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'color'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',

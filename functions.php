@@ -31,9 +31,6 @@ if (!function_exists('excitor_enqueue_scripts')) {
 
 		wp_enqueue_style('excitor-fonts', excitor_fonts_url(), false );
 		
-		/* Local Fonts */
-		wp_enqueue_style( 'excitor-localfonts', get_template_directory_uri().'/assets/localfonts/fonts.css');
-		
 		/* Bootstrap */
 		wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/vendors/bootstrap/css/bootstrap.min.css', array(), false);
 		wp_enqueue_script('bootstrap', get_template_directory_uri().'/assets/vendors/bootstrap/js/bootstrap.min.js', array('jquery'), '', true);

@@ -126,6 +126,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'text-transform'   => true,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#FFFFFF',
 				'font-size'   => '30px',
@@ -184,6 +186,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#FFFFFF',
 				'font-size'   => '14px',
@@ -226,6 +230,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#FFFFFF',
 				'font-size'   => '14px',
@@ -251,6 +257,8 @@ Redux::setSection( $opt_name, array(
 			'letter-spacing'   => true,
 			'text-align'   => false,
 			'text-transform'   => true,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#FFFFFF',
 				'font-size'   => '14px',
@@ -341,6 +349,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#FFFFFF',
 				'font-size'   => '14px',
@@ -383,6 +393,8 @@ Redux::setSection( $opt_name, array(
 			'subsets'   => false,
 			'letter-spacing'   => true,
 			'text-align'   => false,
+			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
+			'fonts'  => $fonts,
 			'default'  => array(
 				'color'       => '#FFFFFF',
 				'font-size'   => '14px',
