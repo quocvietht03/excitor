@@ -97,7 +97,7 @@ Redux::setSection( $opt_name, array(
 			'text-transform'   => true,
 			'color'   => false,
 			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
-			'fonts'  => $fonts,
+			'fonts'  => $fonts, 'google' => false,
 			'default'  => array(
 				'font-size'   => '24px',
 				'font-family' => 'Poppins',
@@ -171,7 +171,7 @@ Redux::setSection( $opt_name, array(
 			'text-transform'   => true,
 			'color'   => false,
 			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
-			'fonts'  => $fonts,
+			'fonts'  => $fonts, 'google' => false,
 			'default'  => array(
 				'font-size'   => '14px',
 				'font-family' => 'Poppins',
@@ -306,7 +306,7 @@ Redux::setSection( $opt_name, array(
 			'text-transform'   => true,
 			'color'   => false,
 			'ext-font-css' => get_template_directory().'/framework/options/fonts.css',
-			'fonts'  => $fonts,
+			'fonts'  => $fonts, 'google' => false,
 			'default'  => array(
 				'font-size'   => '24px',
 				'font-family' => 'Poppins',
