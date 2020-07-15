@@ -30,6 +30,8 @@ if (!function_exists('excitor_enqueue_scripts')) {
 		global $excitor_options;
 
 		wp_enqueue_style('excitor-fonts', excitor_fonts_url(), false );
+		wp_enqueue_style('excitor-external-fonts', get_template_directory_uri().'/framework/options/fonts.css', false );
+		
 		
 		/* Bootstrap */
 		wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/vendors/bootstrap/css/bootstrap.min.css', array(), false);
