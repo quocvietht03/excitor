@@ -64,8 +64,9 @@ function excitor_register_required_plugins() {
 			'required'  => true,
 		),
 		array(
-			'name'         => esc_html__('Unyson', 'excitor'),
+			'name'         => esc_html__('Unyson', 'asata'),
 			'slug'         => 'unyson',
+			'source'       => $root.'unyson.zip',
 			'required'     => true,
 		),
 		array(

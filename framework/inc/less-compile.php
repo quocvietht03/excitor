@@ -159,7 +159,7 @@ function excitor_autoCompileLess($inputFile, $outputFile) {
 function excitor_addLessStyle() {
 	global $excitor_options;
 	
-	$less_design = (isset($excitor_options['less_design'])&&$excitor_options['less_design']) ? $excitor_options['less_design'] : true; 
+	$less_design = (isset($excitor_options['less_design']) && $excitor_options['less_design']) ? $excitor_options['less_design'] : false; 
 	if($less_design){
 		try {
 			$inputFile = get_template_directory().'/assets/css/less/style.less';
