@@ -255,6 +255,17 @@
 			});
 		});
 	}
+
+	/* Copyright Current Year */
+	function ExcitorCopyrightCurrentYear() {
+		var searchTerm = '{Year}',
+			replaceWith = new Date().getFullYear();
+		
+		$('.bt-copyright').each( function() {
+			this.innerHTML = this.innerHTML.replace(searchTerm, replaceWith);
+		});
+	}
+	
 	
 	jQuery(document).ready(function($) {
 		
@@ -276,6 +287,7 @@
 		ExcitorNiceScrollBar()
 		ExcitorMasonry();
 		ExcitorCountDownClock();
+		ExcitorCopyrightCurrentYear();
 		
 		if($('.bt-counter-element .bt-number').length > 0) {
 			$('.bt-counter-element .bt-number').counterUp({
